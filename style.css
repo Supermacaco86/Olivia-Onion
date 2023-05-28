@@ -1,3 +1,19 @@
-h1 {
-    color: blueviolet;
+/* Barra de navegacion */
+
+.navbar {
+    padding: 1rem;
+    background-color: #f5f6f7;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Adaptable (Responsivo) */
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
 }
