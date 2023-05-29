@@ -31,6 +31,19 @@ h1 {
     text-align: center;
 }
 
+.hero-principal {
+    padding: 2rem;
+}
+
+.hero-principal h1 {
+    color: #282323;
+}
+
+.hero-principal h2 {
+    font-size: 1.5rem;
+    color: #413737;
+}
+
 /* Adaptable (Responsivo) */
 
 @media screen and (max-width: 767px) {
