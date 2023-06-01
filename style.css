@@ -204,6 +204,76 @@ h3 {
     color: black;
 }
 
+/* Pie de pagina(footer) */
+
+footer {
+    min-height: 180px;
+}
+
+.seccion-footer {
+    height: 130px;
+    background-color: rgb(166, 187, 141);
+}
+.seccion-footer1 {
+    height: 160px;
+    background-color: rgb(234, 231, 177);
+}
+
+.seccion-titulo-footer{
+    color: #ffffff;
+}
+
+.description-footer{
+    color: #ffffff;
+}
+
+.footer-logo {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.footer-texto {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30;
+    font-family: 'Quicksand', sans-serif;
+} 
+
+.iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid rgb(60, 98, 85);
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+    color: rgb(60, 98, 85);
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+    background-color: white;
+    border: 2px solid rgb(110, 190, 162);
+} 
+
+.iconos-redes-sociales a:hover i {
+    color: rgb(60, 98, 85);
+}
+
+.derechos-de-autor {
+    font-size: 15px;
+    color:rgb(60, 98, 85);
+    padding: 20px;  
+}
+
 /* Adaptable (Responsivo) */
 
 @media screen and (max-width: 767px) {
