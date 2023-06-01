@@ -45,6 +45,11 @@ h3 {
     background-color: #856f0b;
 }
 
+.seccion-oscura2 {
+    color: aliceblue;
+    background-color: #5741a0;
+}
+
 .seccion-clara {
     color: rgb(7, 7, 7);
     background-color: #d8d87d;
@@ -131,6 +136,18 @@ h3 {
 } 
 
 .cultivo .contenedor {
+    max-width: 700px;
+    text-align: center;
+}
+
+/* seccion beneficios */
+
+.beneficios {
+    height: 500px;
+    padding: 20px;
+} 
+
+.beneficios .contenedor {
     max-width: 700px;
     text-align: center;
 }
