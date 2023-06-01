@@ -55,19 +55,30 @@ h3 {
     background-color: #d8d87d;
 }
 
-.seccion-titulo {
+.seccion-titulo1 {
     font-size: 2.8rem;
     padding: 15px 0;
     font-family: 'Playfair', serif;
 }
 
+.seccion-titulo {
+    font-family: 'Passion One', cursive;
+    color: transparent;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: -0.015rem;
+    background-image: linear-gradient(180deg, #e6f291, #4446ca);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
 .hero .titulo-principal {
-    font-family: system-ui;
+    font-family: 'Passion One', cursive;
     color: transparent;
     font-size: 110px;
     font-weight: 700;
     letter-spacing: -0.015rem;
-    background-image: linear-gradient(180deg, #d8f30f, #c9721a);
+    background-image: linear-gradient(180deg, #d8f30f, #e8611d);
     background-clip: text;
     -webkit-background-clip: text;
 }   
