@@ -166,6 +166,10 @@ h3 {
     text-align: center;
 }
 
+.proposito .contenedor .seccion-texto .urls {
+    font-size: 18px;
+}
+
 /* seccion produccion */
 
 .produccion {
