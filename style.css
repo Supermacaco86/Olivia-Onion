@@ -105,6 +105,10 @@ h3 {
     padding: 2rem;
 }
 
+.hero-principal .imagen-hero {
+    width: 500px;
+}
+
 .hero-principal h1 {
     color: #f9f4f4;
 }
@@ -164,10 +168,6 @@ h3 {
 .proposito .contenedor {
     max-width: 700px;
     text-align: center;
-}
-
-.proposito .contenedor .seccion-texto .urls {
-    font-size: 18px;
 }
 
 /* seccion produccion */
@@ -347,5 +347,40 @@ footer {
     .productos-imagen {
         height: 200px;
         width: 300px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .proposito {
+        height: 800px;
+        padding: 20px;
+    } 
+}
+
+@media screen and (max-width: 500px) {
+    .proposito {
+        height: 800px;
+        padding: 20px;
+    } 
+}
+
+@media screen and (max-width: 500px) {
+    .produccion {
+        height: 600px;
+        padding: 20px;
+    } 
+}
+
+@media screen and (max-width: 500px) {
+    .cultivo {
+        height: 950px;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .beneficios {
+        height: 900px;
+        padding: 20px;
     }
 }
